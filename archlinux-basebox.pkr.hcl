@@ -76,6 +76,10 @@ build {
 		"echo 'Finished installing VirtualBox Guest Additions.'"
 	]
   }
+  
+  provisioner "shell" {
+	script = "provision/pikaur.sh"
+  }
 
   post-processor "vagrant" {
 	output = "output/my-arch-base.box"
