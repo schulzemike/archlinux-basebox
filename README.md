@@ -1,5 +1,5 @@
 # archlinux-basebox
-My Archlinux basebox created with packer and the archinstall script.
+My Archlinux basebox for Virtualbox created with packer and the archinstall script.
 
 This basebox contains a basic installation of Archlinux with
 
