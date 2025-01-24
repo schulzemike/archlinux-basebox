@@ -21,7 +21,7 @@
                 },
                 "mountpoint": "/",
                 "size": "100%",
-                "start": "206MiB",
+                "start": "15GiB",
                 "type": "primary",
                 "wipe": true
             }

@@ -4,7 +4,7 @@
     ],
     "archinstall-language": "German",
     "audio": "pipewire",
-    "config_version": "2.5.6",
+    "config_version": "2.6.0",
 	"custom-commands": [
 		"systemctl enable sshd",
 		"sed -i 's/vagrant ALL=(ALL) ALL/vagrant ALL=(ALL) NOPASSWD: ALL/g' /etc/sudoers.d/00_vagrant",
@@ -15,7 +15,7 @@
     "harddrives": [
         "/dev/sda"
     ],
-    "hostname": "archlinux-testhost",
+    "hostname": "dev-machine",
     "kernels": [
         "linux-lts"
     ],
@@ -126,7 +126,8 @@
 		"man-db",
 		"man-pages",
 		"openssh",
-		"gvim",
+		"neovim",
+		"xclip",
 		"xorg-apps",
 		"xorg-server"
     ],
@@ -138,5 +139,5 @@
     "sys-encoding": "utf-8",
     "sys-language": "de_DE.UTF-8",
     "timezone": "Europe/Berlin",
-    "version": "2.5.6"
+    "version": "2.6.0"
 }
